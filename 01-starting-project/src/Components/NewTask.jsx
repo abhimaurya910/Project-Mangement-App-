@@ -15,7 +15,7 @@ export default function ({onAdd}){
         }
         onAdd(enteredTask);
             setEnteredTask(''); 
-       
+          
     }
     return(
         <div className="flex items-center gap-4">
